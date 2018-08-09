@@ -1,6 +1,5 @@
 'use strict';
 
 module.exports = function(Thing) {
-    Thing.disableRemoteMethod("delete", true);
-
+  Thing.disableRemoteMethod('delete', true);
 };
